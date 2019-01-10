@@ -1,0 +1,8 @@
+<div *ngIf="title && url && content" class="card"> <!-- component transfer, directive allows post to show when all inputs are correctly passed -->
+  <img class="card-img-top" src="{{url}}" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">{{title}}</h5>
+    <p class="card-text">{{content}}</p>
+    <a [routerLink]="['/details', id]" class="btn btn-primary">Więcej</a>
+  </div>
+</div>

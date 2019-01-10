@@ -1,0 +1,14 @@
+<div class="container">
+  <!-- Filter Title Only-->
+  <input [(ngModel)]="filterText" class="form-control search-input" placeholder="Wyszukaj" type="text" appTextFormat>
+
+  <ng-container *ngFor="let post of list | filter: filterText"> <!-- Showing an array property, display each item in the list -->
+    <app-blog-item
+      [content]="post.content"
+      [title]="post.title"
+      [url]="post.url"
+      [id]="post.id"
+    >
+    </app-blog-item>
+  </ng-container>
+</div>

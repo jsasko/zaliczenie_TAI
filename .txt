@@ -1,0 +1,40 @@
+https://angular.io/cli
+
+ng serve -o otwarcie przegl¹darki po uruchomieniu projektu
+
+W aplikacji s¹ zdefiniowane nastêpuj¹ce komponenty 
+
+- blog-details-page: odpowiada za wyœwietlenie szczegó³ów postu, w pliku .ts komponentu odwo³ujesz siê do serwisu a serwis do 
+REST o dane posta po ID posta 
+- blog-item: pojedynczy obiekt postu na liscie ma w sobie kilka inputów czyli przyjmuje dane w komponencie app-blog-list 
+- blog-list-page: w tym komponencie pobierana jest lista postów i wyœwietlana ich lista, jest te¿ filtrowanie do 
+którego podpiêty jest pipe w katalogu pipes, otrzymuje on wartosci z inputa przeszukuje listê postów i zwraca pasuj¹ce 
+elementy po tytule 
+- create-post-page: dodanie posta do bazy danych nic ciekawego
+- navigation: no to menu
+
+routing w aplikacji w pliku: app.routing.module.ts
+jest jeden serwis do ³¹czenia siê z API to blog.service.ts ma 3 metody pobranie wszystkich postów,
+pobranie pojedynczego postu po ID postu i utworzenie postu
+
+API
+
+DAO - tam s¹ trzymane informacje o kolekcji oraz metody do operowania na danej kolekcji jak np wyszukiwanie, 
+tworzenie itp w bazie danych
+business - serwis pomiêdzy REST a DAO
+REST - zdefiniowane us³ugi w aplikacji
+
+zawsze idzie to tak
+
+REST -> business -> DAO
+
+uruchomienie projektu 
+w g³ównym kontekscie aplikacji npm install 
+przechodzisz do api npm install
+
+backend
+przechodzisz do api
+i node app/index.js
+
+wracasz do katalogu g³ównego
+i ng serve -o

@@ -1,0 +1,41 @@
+html
+{
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #F2F2F2;
+  font-family: 'Montserrat', sans-serif;
+  height: 100%;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: 70px auto;
+  height: 100%;
+}
+
+#content {
+  padding: 30px;
+  height: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  background: #fff;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  padding: 1%;
+}
+
+a{
+  padding: 2%;
+  color: #00A8FF;
+  text-decoration: none;
+}

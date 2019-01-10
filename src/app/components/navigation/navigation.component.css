@@ -1,0 +1,35 @@
+nav {
+  background: #2D2E2E !important;
+  height: 100%;
+  overflow: hidden;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: block;
+  background: #2D2E2E;
+}
+
+a {
+  padding: 20px;
+  display: block;
+  color: #fff;
+}
+
+a:focus {
+  display: block;
+  background-color: #00a8ff;
+}
+
+a:active {
+  background-color: #00a8ff;
+}
+
+a:target {
+  background-color: #00a8ff;
+}

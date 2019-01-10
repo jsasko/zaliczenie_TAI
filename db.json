@@ -1,0 +1,24 @@
+{
+  "blogItems": [
+    {
+      "id" : 1,
+      "title" : "Pierwszy wpis",
+      "text" : "Ten pierwszy wpis"
+    },
+    {
+      "id" : 2,
+      "title" : "Pierwszy wpis",
+      "text" : "Ten pierwszy wpis"
+    },
+    {
+      "id" : 3,
+      "title" : "Pierwszy wpis",
+      "text" : "Ten pierwszy wpis"
+    },
+    {
+      "id" : 4,
+      "title" : "Pierwszy wpis",
+      "text" : "Ten pierwszy wpis"
+    }
+  ]
+}
